@@ -42,7 +42,7 @@ module.exports = {
 
 安装如下两个npm库
 * [uni-app-polyfills-presets](https://www.npmjs.com/package/uni-app-polyfills-presets)
-* [uni-app-core-js](https://www.npmjs.com/package/https://www.npmjs.com/package/uni-app-core-js)
+* [uni-app-core-js](https://www.npmjs.com/package/uni-app-core-js)
 
 ```bash
 npm install uni-app-polyfills-presets@1.0.0
