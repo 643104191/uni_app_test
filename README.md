@@ -44,6 +44,8 @@ module.exports = {
 * [uni-app-polyfills-presets](https://www.npmjs.com/package/uni-app-polyfills-presets)
 * [uni-app-core-js](https://www.npmjs.com/package/uni-app-core-js)
 
+__重要__ :在上面两个依赖的github里 __点一下star__ 有利于解决bug :)
+
 ```bash
 npm install uni-app-polyfills-presets@1.0.0
 npm install uni-app-core-js@1.0.0
