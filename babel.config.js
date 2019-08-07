@@ -46,10 +46,15 @@ module.exports = {
       '@vue/app',
       {
         modules: 'commonjs',
-        useBuiltIns: process.env.UNI_PLATFORM === 'h5' ? 'usage' : 'entry',
-        polyfills: [
-          'es7.array.flat-map'
-        ]
+        useBuiltIns: process.env.UNI_PLATFORM === 'h5' ? 'usage' : 'entry'
+      }
+    ],
+    [
+      'module:uni-app-polyfills-presets',
+      {
+        useBuiltIns: 'usage',
+        // 这里写`shippedProposals: true`是因为用了flatMap
+        shippedProposals: true
       }
     ]
   ],

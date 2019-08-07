@@ -20,7 +20,7 @@
 		},
 		created() {
 			try {
-				[].flatMap(v=>v)
+				console.log([[2],[4],[5],[6]].flatMap(v=>v));
 			} catch (error) {
 				this.hasFlatMap = false
 				console.error(error)

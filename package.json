@@ -34,6 +34,8 @@
     "core-js": "^2.6.9",
     "flyio": "^0.6.2",
     "regenerator-runtime": "^0.12.1",
+    "uni-app-core-js": "^1.0.0",
+    "uni-app-polyfills-presets": "^1.0.0",
     "vue": "^2.6.10",
     "vuex": "^3.0.1"
   },
@@ -50,11 +52,11 @@
     "@vue/cli-plugin-babel": "3.5.1",
     "@vue/cli-service": "^3.10.0",
     "babel-plugin-import": "^1.11.0",
+    "babel-polyfill": "^6.26.0",
     "postcss-comment": "^2.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "browserslist": [
-    "last 3 versions",
     "Android >= 4.4",
     "ios >= 8"
   ],
