@@ -50,7 +50,7 @@
     "@types/html5plus": "*",
     "@types/uni-app": "*",
     "@vue/cli-plugin-babel": "3.5.1",
-    "@vue/cli-service": "^3.10.0",
+    "@vue/cli-service": "^5.0.8",
     "babel-plugin-import": "^1.11.0",
     "babel-polyfill": "^6.26.0",
     "postcss-comment": "^2.0.0",
